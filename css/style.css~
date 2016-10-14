@@ -1,0 +1,57 @@
+			html , body {
+				height: 100%;			
+			}
+	/* BORDERS OD DIVS */	
+			.side {	
+				float: left;		
+			}
+	/* POSITIONING OF CONTENT */
+			.content {
+				margin-left: 16%;	
+			}
+	/* SIZE OF MENU ELEMENTS */
+			.logo {
+				position: absolute;
+				border: 1pt solid black;
+				font-family: monospace;
+				font-size: 16pt;		
+				height: 21%;
+				width: 15%;
+				text-align: center;
+			}
+			.logo:hover {
+				color: black;
+				font-size: 30pt;
+				background-color: whitesmoke;
+				font-weight: bold;
+				font-style: italic;
+			}
+			.logo:active {
+				background-color: #ababab;
+				font-size: 35pt;
+			}
+			.menu {
+				position: absolute;
+				top: 21%;
+				height: 59%;	
+				width: 15%;
+				border: 1pt solid black;			
+			}
+			
+			footer {
+				position: absolute;
+				top: 80%;
+				width: 15%;
+				height: 20%;
+				font-size: 12pt;
+				font-family: monospace;	
+				border: 1px solid black;		
+			}
+			
+			.href {
+				position: relative;
+				height: 10%;
+				width: 100%;			
+			}
+
+

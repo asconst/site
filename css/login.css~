@@ -1,0 +1,41 @@
+.div_login {
+	position: absolute;
+	top: 30%;
+	left: 30%;
+	height: 40%;
+	width: 40%;
+	background-color: black;
+	font-family: monospace;
+	font-size: 16pt;
+}
+
+body {
+	background-color: black;
+}
+
+input , button {
+	width: 100%;
+	height: inherit;
+	border: 1px solid black;
+	background-color: gray;
+	color: white;
+	font-size: 16pt;
+	font-family: monospace;
+	cursor: pointer;
+	color: white;
+}
+
+p {
+	color: white;
+	font-size: 10pt;
+	padding: 0%;
+}
+
+a:link , a:visited {
+	text-decoration: none;
+	color: white;
+}
+
+.home  {
+	height: 20pt;
+}
