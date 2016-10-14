@@ -1,0 +1,62 @@
+.href {
+	background-color: black;
+	color: white;
+	font-family: monospace;
+	font-weight: bolder;
+	text-align: center;
+}
+.amenu {
+	position: relative;
+	top: 50%;
+}
+.menu{
+	background-color: black;
+}
+.href:hover {
+	background-color: white;
+	color: black;
+	font-size: 20pt;
+}
+.href:active {
+	background-color: gray;
+	color: black;
+	font-size: 25pt;
+}
+.logo , .footer {
+	color: white;
+}
+.logo , .footer {
+	background-color: #4E4E4E;
+}
+body {
+	background-color: #ACACAC;
+}
+.side {
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
+}
+p {
+	color: white;
+	font-family: monospace;
+	font-weight: bold;
+	font-size: 11pt;
+}
+a:link , a:visited {
+	text-decoration: none;
+	color: white;
+	font-size: 12pt;
+}
+.logo:hover {
+	color: black;
+	font-size: 30pt;
+	background-color: whitesmoke;
+	font-weight: bold;
+	font-style: italic;
+}
+.logo:active {
+	background-color: #ababab;
+	font-size: 35pt;
+}
