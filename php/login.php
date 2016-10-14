@@ -7,11 +7,11 @@
 		<div class="div_login">
 			<form class="form_login" method="get" action="signin.php">
 						<p>E-mail:</p>
-						<input title="E-mail" type="email">
+						<input name="email" type="email">
 						<p>Password:</p>
-						<input title="password" type="password"><br><br>
-						<input type="submit" title="Войти">
-						<input type="reset" title="Очистить">
+						<input name="password" type="password"><br><br>
+						<input type="submit" name="login">
+						<input type="reset" name="clear">
 						<button name="Regiter" title="Зарегистрироваться">
 							<a href="register.php">Регистрация</a>
 						</button>							
